@@ -27,8 +27,8 @@ The strategy takes positions based on these predictions, with exits defined for 
 This strategy uses a stateful approach to manage  positions with exits.
 It operates on S&P 500 stocks, dynamically selects the 15 least volatile
 and uses feedforward neural network to predict whether the price will rise
-and to create entry trading signals.For exit take profit, stop loss, and holding period limits
-are used.
+and  create entry trading signals based on predictions. For exit take profit,
+stop loss, and holding period limits are used.
 
 ### Strategy Components:
 1. Data Loading and Preparation:
